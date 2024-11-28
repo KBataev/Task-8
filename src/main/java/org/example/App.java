@@ -20,7 +20,13 @@ public class App
     {
 
 
-        Request.GetRequest();
+        Request.getRequest();
+        Request.saveUser();
 
+        Request.updateUser();
+        Request.deleteUser();
+
+        String result = Request.cod_1 + Request.cod_2 + Request.cod_3;
+        System.out.println(result+" символов: "+ result.length());
     }
 }
